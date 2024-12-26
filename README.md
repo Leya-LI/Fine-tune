@@ -14,7 +14,7 @@ This repository provides a comprehensive guide and implementation for fine-tunin
 - **Model Configuration**: Select and configure pre-trained LLMs for adaptation.
 - **Training**: Fine-tune the model using advanced techniques to prevent overfitting and improve generalization.
 - **Evaluation**: Assess model performance using metrics such as ROUGE.
-- **Hyperparameter Tuning**: Optimize training parameters for the best results.
+- **Hyperparameter Tuning**: Optimize training parameters.
 
 ## Prerequisites
 
