@@ -33,7 +33,7 @@ This repository provides a comprehensive guide and implementation for fine-tunin
   - trl: 0.13.0
   - rouge_score: 0.1.2
 
-## References
+## Reference
 - Fine Tune Large Language Model (LLM) on a Custom Dataset with QLoRA (https://dassum.medium.com/fine-tune-large-language-model-llm-on-a-custom-dataset-with-qlora-fb60abdeba07)
   
 ## License
