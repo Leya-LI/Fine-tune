@@ -9,17 +9,16 @@
 This repository provides a comprehensive guide and implementation for fine-tuning large language models (LLMs) for custom applications. It covers the entire pipeline, from task formulation and dataset preparation to hyperparameter tuning and evaluation. The primary goal is to help users adapt LLMs to specific domains or tasks while achieving optimal performance.
 
 ## Features
-- **Task Formulation**: Define the objectives and desired outputs of the model.
-- **Data Preparation**: Clean, preprocess, and format datasets for fine-tuning.
-- **Model Configuration**: Select and configure pre-trained LLMs for adaptation.
-- **Training**: Fine-tune the model using advanced techniques to prevent overfitting and improve generalization.
-- **Evaluation**: Assess model performance using metrics such as ROUGE.
-- **Hyperparameter Tuning**: Optimize training parameters.
+- **Task Formulation**: Summarize dialogue.
+- **Data Preparation**: Use the DialogSum DataSet from HuggingFace, which featuring 13,460 dialogues along with manually labeled summaries and topics.
+- **Model Configuration**: Select and configure pre-trained Llama-3-2-3b-instruct for adaptation.
+- **Hyperparameter Tuning**: Fine-tune the model using QLoRA and PEFT to improve generalization.
+- **Evaluation**: Assess model performance using metrics ROUGE.
 
 ## Prerequisites
 
 - **Hardware Requirements**:
-  - A GPU with at least 16 GB memory.
+  - A GPU with at least 16 GB memory.This project is trained on Kaggle GPU P100.
 - **Library Requirements**:
   - Python 3.10.12 or higher.
   - bitsandbytes: 0.45.0
